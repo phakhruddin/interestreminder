@@ -16,7 +16,7 @@ function exposed() {
     //Logger.log("expose: "+data[i][5] +" needbgcolor: "+needbgcolor);
     var lapse = 30 * 24 * 3600 * 1000;
     var exposed_day = today.getTime() - lapse; 
-    var dayexp = exposed_day.getday();
+    //var dayexp = exposed_day.getday();
     if ( celldate > exposed_day ) {
       exposed_content = data[i][1];    
       table += '</tr><tr>';
